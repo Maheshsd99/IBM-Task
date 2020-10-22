@@ -25,9 +25,16 @@ Follow the below steps to Run the Drupal
   http://localhost/drupal-9.0.7/user/login
   
   Username - IBM Drupal
+  
   Password - admin#123
   
   login with the given credetials
   
 - Run the below JSON API to find the task output
+  
   http://localhost/drupal-9.0.7/api/menunavigation?_format=json
+  
+  Response
+   
+  [{"title":"Menu Navigation","view_node":"\/drupal-9.0.7\/node\/1","field_menu_description":"This is home page menu","field_menu_icon":"\/drupal-9.0.7\/sites\/default\/files\/2020-10\/Menu_icon_0.png","field_menu_item_name":"Home Page Menu","field_menu_link_url":"\u003Ca href=\u0022http:\/\/localhost\/drupal-9.0.7\/\u0022\u003Ehttp:\/\/localhost\/drupal-9.0.7\/\u003C\/a\u003E","field_parent_menu":"Home"}]
+  
